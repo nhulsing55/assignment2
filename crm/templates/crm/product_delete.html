@@ -5,7 +5,7 @@
     <form method="post">
         {% csrf_token %}
         <input type="submit" class="btn btn-danger" value="Delete">
-        <a href="{% url 'crm:home' pk=service.cust_number %} ">Cancel</a>
+        <a href="{% url 'crm:home' pk=product.cust_name %} ">Cancel</a>
 
     </form>
 
